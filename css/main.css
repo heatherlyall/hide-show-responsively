@@ -43,17 +43,18 @@ img {
 @media only screen and (min-width: 25em) {
 
   .dino:nth-child(2) {
-    display: block;
+    display: flex;
   }
 
   .dino:nth-child(4) {
-    display: block;
+    display: flex;
   }
 
   .dino {
-    width: 80%;
-    display: block;
-    position: relative;
+    display: flex;
+    padding: 0 4px;
+    flex: 80%;
+    max-width: 80%;
 
   }
 
