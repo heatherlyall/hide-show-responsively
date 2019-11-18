@@ -29,6 +29,7 @@ img {
 
 .dino-wrap {
   align-content: center;
+  flex-wrap: wrap;
 }
 
 .dino:nth-child(2) {
@@ -53,7 +54,6 @@ img {
   .dino {
     display: flex;
     padding: 0 4px;
-    flex-wrap: wrap;
     flex: 80%;
     max-width: 80%;
 
