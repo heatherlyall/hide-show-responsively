@@ -44,12 +44,12 @@ img {
 @media only screen and (min-width: 25em) {
 
   .dino:nth-child(2) {
-    display: flex;
+    display: block;
     width: 50%;
   }
 
   .dino:nth-child(4) {
-    display: flex;
+    display: block;
     width: 50%;
   }
 
@@ -60,18 +60,47 @@ img {
 }
 
 @media only screen and (min-width: 38em) {
-  .dino {
-    display: flex;
-    width: 60%;
+
+  .dino:nth-child(2) {
+    display: block;
+    width: 33%;
   }
 
-}
+  .dino:nth-child(4) {
+    display: block;
+    width: 33%;
+  }
+
+  .dino:nth-child(3) {
+    display: block;
+    width: 33%;
+  }
+
+ .dino:first-child {
+   display: none;
+ }
+
+
 
 
 @media only screen and (min-width: 60em){
-  .dino {
-    display: flex;
+
+  .dino:nth-child(2) {
+    display: block;
     width: 25%;
   }
 
-}
+  .dino:nth-child(4) {
+    display: block;
+    width: 25%;
+  }
+
+  .dino:nth-child(3) {
+    display: block;
+    width: 25%;
+  }
+
+  .dino:first-child {
+   display: block;
+   width: 25%;
+  }
