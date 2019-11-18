@@ -45,17 +45,16 @@ img {
 
   .dino:nth-child(2) {
     display: flex;
+    width: 50%;
   }
 
   .dino:nth-child(4) {
     display: flex;
+    width: 50%;
   }
 
   .dino {
-    padding: 0 4px;
-    flex: 80%;
-    max-width: 80%;
-
+  width: 50%;
   }
 
 }
