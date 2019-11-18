@@ -53,6 +53,7 @@ img {
   .dino {
     display: flex;
     padding: 0 4px;
+    flex-wrap: wrap;
     flex: 80%;
     max-width: 80%;
 
