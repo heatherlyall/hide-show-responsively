@@ -40,7 +40,6 @@ img {
   display: none;
 }
 
-
 @media only screen and (min-width: 25em) {
 
   .dino:nth-child(2) {
@@ -71,7 +70,6 @@ img {
   }
 
 }
-
 
 @media only screen and (min-width: 60em){
 
