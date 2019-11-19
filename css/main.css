@@ -54,55 +54,30 @@ img {
   }
 
   .dino {
-  width: 50%;
+    width: 50%;
   }
 
 }
 
 @media only screen and (min-width: 38em) {
 
-  .dino:nth-child(2) {
+  .dino {
     display: block;
     width: 33%;
   }
 
-  .dino:nth-child(4) {
-    display: block;
-    width: 33%;
+  .dino:first-child {
+    display: none;
   }
-
-  .dino:nth-child(3) {
-    display: block;
-    width: 33%;
-  }
-
- .dino:first-child {
-   display: none;
- }
 
 }
 
 
 @media only screen and (min-width: 60em){
 
-  .dino:nth-child(2) {
+  .dino {
     display: block;
     width: 25%;
-  }
-
-  .dino:nth-child(4) {
-    display: block;
-    width: 25%;
-  }
-
-  .dino:nth-child(3) {
-    display: block;
-    width: 25%;
-  }
-
-  .dino:first-child {
-   display: block;
-   width: 25%;
   }
 
 }
